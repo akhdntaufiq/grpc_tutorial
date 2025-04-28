@@ -23,7 +23,7 @@ message PaymentRequest {
 }
 
 message PaymentResponse {
-  string success = 1;
+  bool success = 1;
 }
 
 message TransactionRequest {
